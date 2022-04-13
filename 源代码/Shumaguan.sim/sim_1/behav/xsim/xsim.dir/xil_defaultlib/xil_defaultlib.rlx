@@ -1,0 +1,14 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+D:/vivadotest/Shumaguan/Shumaguan.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/ClkControl.v,1607706448,verilog,,D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/Comparer.v,,ClkControl,,,,,,,,
+D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/Comparer.v,1607607424,verilog,,D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/Countdown.v,,Comparer,,,,,,,,
+D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/Countdown.v,1607703794,verilog,,D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/Counter10.v,,Countdown,,,,,,,,
+D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/Counter10.v,1607606832,verilog,,D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/Counter4.v,,Counter10,,,,,,,,
+D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/Counter4.v,1607606838,verilog,,D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/Decoder.v,,Counter4,,,,,,,,
+D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/Decoder.v,1607606010,verilog,,D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/LEDView.v,,Decoder,,,,,,,,
+D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/IOtest.v,1607705251,verilog,,,,IOtest,,,,,,,,
+D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/LEDView.v,1607606809,verilog,,D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/ViewDecoder.v,,LEDView,,,,,,,,
+D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/ViewDecoder.v,1607657864,verilog,,D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/IOtest.v,,ViewDecoder,,,,,,,,

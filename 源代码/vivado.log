@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Dec  4 11:39:07 2021
+# Process ID: 8940
+# Current directory: D:/董琦120L020701-连乃涵120L020801-数电大作业/源代码
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5960 D:\董琦120L020701-连乃涵120L020801-数电大作业\源代码\Shumaguan.xpr
+# Log file: D:/董琦120L020701-连乃涵120L020801-数电大作业/源代码/vivado.log
+# Journal file: D:/董琦120L020701-连乃涵120L020801-数电大作业/源代码\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/董琦120L020701-连乃涵120L020801-数电大作业/源代码/Shumaguan.xpr
+INFO: [Project 1-313] Project file moved from 'D:/vivadotest/Shumaguan' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Dec  4 11:39:57 2021...

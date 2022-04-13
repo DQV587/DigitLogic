@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Dec  4 09:39:12 2021
+# Process ID: 18076
+# Current directory: D:/vivadotest/Shumaguan/Shumaguan.runs/synth_1
+# Command line: vivado.exe -log IOtest.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source IOtest.tcl
+# Log file: D:/vivadotest/Shumaguan/Shumaguan.runs/synth_1/IOtest.vds
+# Journal file: D:/vivadotest/Shumaguan/Shumaguan.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source IOtest.tcl -notrace

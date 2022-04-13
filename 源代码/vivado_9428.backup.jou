@@ -1,0 +1,76 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Dec  1 17:17:29 2021
+# Process ID: 9428
+# Current directory: D:/vivadotest/Shumaguan
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent704 D:\vivadotest\Shumaguan\Shumaguan.xpr
+# Log file: D:/vivadotest/Shumaguan/vivado.log
+# Journal file: D:/vivadotest/Shumaguan\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/vivadotest/Shumaguan/Shumaguan.xpr
+update_compile_order -fileset sources_1
+add_files -norecurse {D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/ViewDecoder.v D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/Counter4.v D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/LEDView.v D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/Counter10.v D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/Comparer.v D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/Countdown.v D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/IOtest.v D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/ClkControl.v D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/Decoder.v}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/ClkControl.v] -no_script -reset -force -quiet
+remove_files  D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/ClkControl.v
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/ClkControl.v] -no_script -reset -force -quiet
+remove_files  D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/ClkControl.v
+export_ip_user_files -of_objects  [get_files D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/Comparer.v] -no_script -reset -force -quiet
+remove_files  D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/Comparer.v
+export_ip_user_files -of_objects  [get_files D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/Countdown.v] -no_script -reset -force -quiet
+remove_files  D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/Countdown.v
+export_ip_user_files -of_objects  [get_files D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/Counter10.v] -no_script -reset -force -quiet
+remove_files  D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/Counter10.v
+update_compile_order -fileset sim_1
+export_ip_user_files -of_objects  [get_files D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/Counter4.v] -no_script -reset -force -quiet
+remove_files  D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/Counter4.v
+export_ip_user_files -of_objects  [get_files D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/Decoder.v] -no_script -reset -force -quiet
+remove_files  D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/Decoder.v
+export_ip_user_files -of_objects  [get_files D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/LEDView.v] -no_script -reset -force -quiet
+remove_files  D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/LEDView.v
+export_ip_user_files -of_objects  [get_files D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/ViewDecoder.v] -no_script -reset -force -quiet
+remove_files  D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/ViewDecoder.v
+export_ip_user_files -of_objects  [get_files D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/IOtest.v] -no_script -reset -force -quiet
+remove_files  D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sources_1/new/IOtest.v
+add_files -norecurse D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/ClkControl.v
+update_compile_order -fileset sources_1
+add_files -fileset constrs_1 -norecurse D:/vivadotest/Shumaguan/Shumaguan.srcs/constrs_1/new/IOtest.xdc
+export_ip_user_files -of_objects  [get_files D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/constrs_1/new/IOtest.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/constrs_1/new/IOtest.xdc
+export_ip_user_files -of_objects  [get_files D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sim_1/new/sim_Counter10.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sim_1/new/sim_Counter10.v
+export_ip_user_files -of_objects  [get_files D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sim_1/new/sim_Counter4.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sim_1/new/sim_Counter4.v
+export_ip_user_files -of_objects  [get_files D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sim_1/new/sim_Decoder.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sim_1/new/sim_Decoder.v
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {D:/vivadotest/Shumaguan/Shumaguan.srcs/sim_1/new/sim_Counter4.v D:/vivadotest/Shumaguan/Shumaguan.srcs/sim_1/new/Counter10.v D:/vivadotest/Shumaguan/Shumaguan.srcs/sim_1/new/sim_Decoder.v D:/vivadotest/Shumaguan/Shumaguan.srcs/sim_1/new/sim_Counter10.v}
+update_compile_order -fileset sim_1
+export_ip_user_files -of_objects  [get_files D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sim_1/new/Counter10.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 D:/Ðí¼Ò»Ô¡¢¸µÑåè°-1190202428¡¢1190202425/CodeLock/CodeLock.srcs/sim_1/new/Counter10.v
+export_ip_user_files -of_objects  [get_files D:/vivadotest/Shumaguan/Shumaguan.srcs/sim_1/new/Counter10.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 D:/vivadotest/Shumaguan/Shumaguan.srcs/sim_1/new/Counter10.v
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+open_hw
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:\vivadotest\Shumaguan\Shumaguan.runs\impl_1\IOtest.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/vivadotest/Shumaguan/Shumaguan.runs/impl_1/IOtest.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]

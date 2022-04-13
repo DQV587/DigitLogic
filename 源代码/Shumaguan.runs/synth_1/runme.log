@@ -1,0 +1,492 @@
+
+*** Running vivado
+    with args -log IOtest.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source IOtest.tcl
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source IOtest.tcl -notrace
+Command: synth_design -top IOtest -part xc7a35tcsg324-3
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 1756 
+WARNING: [Synth 8-2611] redeclaration of ansi port dm is not allowed [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/LEDView.v:15]
+WARNING: [Synth 8-2611] redeclaration of ansi port wm is not allowed [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/LEDView.v:16]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 400.832 ; gain = 111.242
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'IOtest' [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/IOtest.v:3]
+INFO: [Synth 8-638] synthesizing module 'xiaodou' [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/xiaodou.v:2]
+	Parameter SAMPLE_TIME bound to: 25000000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xiaodou' (1#1) [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/xiaodou.v:2]
+INFO: [Synth 8-638] synthesizing module 'ClkControl' [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/ClkControl.v:3]
+	Parameter maxcnt bound to: 5000000 - type: integer 
+	Parameter maxcount bound to: 100000000 - type: integer 
+CRITICAL WARNING: [Synth 8-5413] Mix of synchronous and asynchronous control for register divclk_reg in module ClkControl. [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/ClkControl.v:25]
+CRITICAL WARNING: [Synth 8-5413] Mix of synchronous and asynchronous control for register divclk_reg in module ClkControl. [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/ClkControl.v:25]
+INFO: [Synth 8-256] done synthesizing module 'ClkControl' (2#1) [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/ClkControl.v:3]
+INFO: [Synth 8-638] synthesizing module 'Countdown' [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/Countdown.v:3]
+	Parameter maxcnt bound to: 25000 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'ViewDecoder' [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/ViewDecoder.v:3]
+INFO: [Synth 8-256] done synthesizing module 'ViewDecoder' (3#1) [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/ViewDecoder.v:3]
+INFO: [Synth 8-226] default block is never used [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/Countdown.v:76]
+INFO: [Synth 8-256] done synthesizing module 'Countdown' (4#1) [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/Countdown.v:3]
+INFO: [Synth 8-638] synthesizing module 'Counter4' [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/Counter4.v:3]
+INFO: [Synth 8-256] done synthesizing module 'Counter4' (5#1) [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/Counter4.v:3]
+INFO: [Synth 8-638] synthesizing module 'Decoder' [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/Decoder.v:3]
+INFO: [Synth 8-226] default block is never used [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/Decoder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Decoder' (6#1) [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/Decoder.v:3]
+INFO: [Synth 8-638] synthesizing module 'Counter10' [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/Counter10.v:3]
+INFO: [Synth 8-256] done synthesizing module 'Counter10' (7#1) [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/Counter10.v:3]
+INFO: [Synth 8-638] synthesizing module 'LEDView' [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/LEDView.v:3]
+	Parameter maxcnt bound to: 25000 - type: integer 
+WARNING: [Synth 8-5788] Register dm_reg in module LEDView is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/LEDView.v:48]
+WARNING: [Synth 8-5788] Register wm_reg in module LEDView is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/LEDView.v:49]
+INFO: [Synth 8-256] done synthesizing module 'LEDView' (8#1) [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/LEDView.v:3]
+INFO: [Synth 8-638] synthesizing module 'Comparer' [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/Comparer.v:3]
+WARNING: [Synth 8-5788] Register D0_reg in module Comparer is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/Comparer.v:39]
+WARNING: [Synth 8-5788] Register D1_reg in module Comparer is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/Comparer.v:40]
+WARNING: [Synth 8-5788] Register D2_reg in module Comparer is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/Comparer.v:41]
+WARNING: [Synth 8-5788] Register D3_reg in module Comparer is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/Comparer.v:42]
+INFO: [Synth 8-256] done synthesizing module 'Comparer' (9#1) [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/Comparer.v:3]
+WARNING: [Synth 8-5788] Register stateLED_reg in module IOtest is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/IOtest.v:85]
+WARNING: [Synth 8-5788] Register counter_reg in module IOtest is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/IOtest.v:104]
+INFO: [Synth 8-256] done synthesizing module 'IOtest' (10#1) [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/IOtest.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 433.031 ; gain = 143.441
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 433.031 ; gain = 143.441
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcsg324-3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/vivadotest/Shumaguan/Shumaguan.srcs/constrs_1/new/IOtest.xdc]
+Finished Parsing XDC File [D:/vivadotest/Shumaguan/Shumaguan.srcs/constrs_1/new/IOtest.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/vivadotest/Shumaguan/Shumaguan.srcs/constrs_1/new/IOtest.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/IOtest_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/IOtest_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 769.555 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 769.555 ; gain = 479.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcsg324-3
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 769.555 ; gain = 479.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 769.555 ; gain = 479.965
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "count_high" won't be mapped to RAM because address size (33) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "key_out" won't be mapped to RAM because address size (33) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "divclk" won't be mapped to RAM because address size (31) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "timer" won't be mapped to RAM because address size (31) is larger than maximum supported(25)
+WARNING: [Synth 8-6014] Unused sequential element timer_reg was removed.  [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/ClkControl.v:52]
+INFO: [Synth 8-5546] ROM "divclk" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "divclk" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "dm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "wm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "wm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'IOtest'
+INFO: [Synth 8-5544] ROM "deadlock" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'Control_reg' [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/Decoder.v:19]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                               00 |                               00
+                 iSTATE0 |                               01 |                               01
+                 iSTATE2 |                               10 |                               10
+*
+                 iSTATE1 |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'IOtest'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 769.555 ; gain = 479.965
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 2     
+	   2 Input     15 Bit       Adders := 2     
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 8     
+	   2 Input      2 Bit       Adders := 5     
++---Registers : 
+	               33 Bit    Registers := 2     
+	               31 Bit    Registers := 2     
+	               15 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 13    
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 2     
+	   2 Input     31 Bit        Muxes := 2     
+	   2 Input     15 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 4     
+	   4 Input      8 Bit        Muxes := 1     
+	  12 Input      7 Bit        Muxes := 6     
+	   2 Input      7 Bit        Muxes := 2     
+	   3 Input      7 Bit        Muxes := 1     
+	   6 Input      7 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 20    
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 9     
+	   3 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 16    
+	   3 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module IOtest 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 3     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 5     
+	   3 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+	   3 Input      1 Bit        Muxes := 3     
+Module xiaodou 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 2     
++---Registers : 
+	               33 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 2     
+Module ClkControl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 2     
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	               31 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 3     
+Module ViewDecoder 
+Detailed RTL Component Info : 
++---Muxes : 
+	  12 Input      7 Bit        Muxes := 1     
+Module Countdown 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     15 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               15 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     15 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 2     
+	   3 Input      7 Bit        Muxes := 1     
+	   6 Input      7 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module Counter4 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 2     
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 1     
+Module Decoder 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+Module Counter10 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 1     
+Module LEDView 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     15 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               15 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     15 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 4     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 3     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module Comparer 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 4     
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "count_high" won't be mapped to RAM because address size (33) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "key_out" won't be mapped to RAM because address size (33) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "divclk" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "divclk" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "control/timer" won't be mapped to RAM because address size (31) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "control/divclk" won't be mapped to RAM because address size (31) is larger than maximum supported(25)
+WARNING: [Synth 8-6014] Unused sequential element control/timer_reg was removed.  [D:/vivadotest/Shumaguan/Shumaguan.srcs/sources_1/new/ClkControl.v:52]
+WARNING: [Synth 8-3332] Sequential element (upper/Control_reg[3]) is unused and will be removed from module IOtest.
+WARNING: [Synth 8-3332] Sequential element (upper/Control_reg[2]) is unused and will be removed from module IOtest.
+WARNING: [Synth 8-3332] Sequential element (upper/Control_reg[1]) is unused and will be removed from module IOtest.
+WARNING: [Synth 8-3332] Sequential element (upper/Control_reg[0]) is unused and will be removed from module IOtest.
+WARNING: [Synth 8-3332] Sequential element (downer/Control_reg[3]) is unused and will be removed from module IOtest.
+WARNING: [Synth 8-3332] Sequential element (downer/Control_reg[2]) is unused and will be removed from module IOtest.
+WARNING: [Synth 8-3332] Sequential element (downer/Control_reg[1]) is unused and will be removed from module IOtest.
+WARNING: [Synth 8-3332] Sequential element (downer/Control_reg[0]) is unused and will be removed from module IOtest.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[1]_P) is unused and will be removed from module IOtest.
+WARNING: [Synth 8-3332] Sequential element (counter_reg[0]_P) is unused and will be removed from module IOtest.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 769.555 ; gain = 479.965
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 776.914 ; gain = 487.324
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 777.730 ; gain = 488.141
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 805.871 ; gain = 516.281
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 805.871 ; gain = 516.281
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 805.871 ; gain = 516.281
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 805.871 ; gain = 516.281
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 805.871 ; gain = 516.281
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 805.871 ; gain = 516.281
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 805.871 ; gain = 516.281
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |   142|
+|3     |LUT1   |    11|
+|4     |LUT2   |   211|
+|5     |LUT3   |   155|
+|6     |LUT4   |   200|
+|7     |LUT5   |   199|
+|8     |LUT6   |   112|
+|9     |FDCE   |   162|
+|10    |FDPE   |     5|
+|11    |FDRE   |    86|
+|12    |FDSE   |     1|
+|13    |LDC    |     1|
+|14    |IBUF   |     7|
+|15    |OBUF   |    29|
++------+-------+------+
+
+Report Instance Areas: 
++------+-----------+------------+------+
+|      |Instance   |Module      |Cells |
++------+-----------+------------+------+
+|1     |top        |            |  1322|
+|2     |  ENTER    |xiaodou     |   171|
+|3     |  control  |ClkControl  |   600|
+|4     |  count0   |Counter10   |    16|
+|5     |  count1   |Counter10_0 |    16|
+|6     |  count2   |Counter10_1 |    17|
+|7     |  count3   |Counter10_2 |    17|
+|8     |  counter4 |Counter4    |    13|
+|9     |  counting |Countdown   |   125|
+|10    |  judge    |Comparer    |    37|
+|11    |  outer    |LEDView     |    62|
++------+-----------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 805.871 ; gain = 516.281
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 13 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:30 . Memory (MB): peak = 805.871 ; gain = 179.758
+Synthesis Optimization Complete : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 805.871 ; gain = 516.281
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 150 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  LDC => LDCE: 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+53 Infos, 23 Warnings, 2 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 805.871 ; gain = 528.887
+INFO: [Common 17-1381] The checkpoint 'D:/vivadotest/Shumaguan/Shumaguan.runs/synth_1/IOtest.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file IOtest_utilization_synth.rpt -pb IOtest_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 805.871 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Dec  4 09:39:56 2021...
